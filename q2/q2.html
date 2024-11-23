@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q2</title>
+    <link rel="stylesheet" href="q2.css">
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="./quack.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <form id="duckform">
+        <label for="txtname">name:</label>
+        <input type="text" name="txtname" id="txtname">
+        <label for="txtcolor">color:</label>
+        <input type="text" name="txtcolor" id="txtcolor">
+        <label for="txtage">age:</label>
+        <input type="text" name="txtage" id="txtage">
+        <label for="txtweight">weight:</label>
+        <input type="text" name="txtweight" id="txtweight">
+        <label for="txtpic">pic:</label>
+        <input type="text" name="txtpic" id="txtpic">
+        <button type="submit" id="ducksubmit" style="width: max-content;">Create Duck!</button>
+    </form>
+    <br>
+    <div id="duckdetails" style="margin-top: 20px;" class="not-visible">
+        <button id="quackbtn">Quack</button>
+        <button id="showbtn">Show</button>
+        <br>
+        <div id="quacks">
+        </div>
+        <br>
+        <div id="detailsdiv">
+        </div>
+    </div>
+    <script src="./q2.js" defer></script>
+</body>
+
+</html>

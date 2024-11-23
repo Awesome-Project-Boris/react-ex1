@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clockform{
+    display: grid;
+    grid-template-columns: 75px 250px;
+    grid-gap: 5px;    
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#clockform input{    
+    border-radius: 25px;
+}
+
+#clocks{
+    display: flex;
+}
+
+#clocks > div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hidden{
+    display: none !important;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q3</title>
+    <link rel="stylesheet" href="./q3.css">
+</head>
+<body>
+    <form id="clockform">
+        <label for="txthours">hours:</label>
+        <input type="text" name="txthours" id="txthours">
+        <label for="txtminutes">minutes:</label>
+        <input type="text" name="txtminutes" id="txtminutes">
+        <label for="txtseconds">seconds:</label>
+        <input type="text" name="txtseconds" id="txtseconds">
+        <label for="txtcountry">country:</label>
+        <input type="text" name="txtcountry" id="txtcountry">
+        
+        <button type="submit" id="clocksubmit" style="width: max-content;">Add Clock!</button>
+    </form>
+    <br>
+    <div class="counter">
+        <span>Clock Added:</span>
+        <span id="addedcounter">0</span>
+    </div>
+    <br>
+    <div id="clocks" class="hidden">
+
+    </div>
+
+
+    <script src="./q3.js" defer></script>
+</body>
+</html>
